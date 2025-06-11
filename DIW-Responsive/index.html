@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <title>IAIA Cristina</title>
+        <link rel="shortcut icon" href="imatges/pizza.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="cuerpo">
+         <div class="menu"> 
+            <div><a class="button">Nosaltres</a></div>
+            <div><a class="button">Carta</a></div>
+            <div><a class="button">Galeria</a></div>
+        </div>
+
+        <div class="button-reservar">
+            <a href="#reserve" class="reservar-button">RESERVA</a> 
+        </div>
+
+        <div class="capcalera">
+            <img src="imatges/foto_fons.jpg" alt="Fons capcalera" class="fondo-capcalera">
+            <div class="textcap">
+                <h1 class="nombre">IAIA CRISTINA</h1>
+                <p class="descripcion">L'autèntica cuina italiana, amb amor i tradició</p>
+            </div>
+        </div>
+
+        <h2>SOBRE NOSALTRES</h2>
+
+        <div class="nosaltres">
+            <div class="contenedor">
+                <div class="contenedorimg">
+                    <img src="imatges/dentro.jpg" alt="Fons capcalera" class="fotos-nosaltres">
+                </div>
+                <div class="contenedortext">
+                    <p class="textnosaltres">A la nostra trattoria, ens apassiona oferir autèntics sabors italians, fets amb ingredients frescos i receptes de tota la vida. La nostra especialitat són les pastes casolanes, les pizzes al forn de llenya i els vins seleccionats d'Itàlia.</p>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <div class="contenedortext">
+                    <p class="textnosaltres">La nostra història comença amb la iaia Cristina, qui ens va ensenyar que el secret d'un bon plat és la passió i l'amor per la cuina. Gaudeix d'un ambient càlid i acollidor on cada mos et transportarà a Itàlia.</p>
+                </div>
+                <div class="contenedorimg">
+                    <img src="imatges/fora.jpg" alt="Cuina italiana" class="fotos-nosaltres">
+                </div>
+            </div>
+        </div>
+
+        <!-- AQUÍ PODEM OBSERVAR LA CARTA I ELS PLATS MÉS RECOMANTS I TÍPICS DEL RESTAURANT -->
+        <h2>CARTA</h2>
+        <div class="carta-container">
+            <div class="menu-barra">MENÚ</div>
+            <div class="menu1">MENÚ 1</div>
+            <div class="contingut1">
+                Menú que inclou pasta fresca elaborada artesanalment amb salsa al gust, acompanyada d’una amanida caprese amb tomàquet, mozzarella i alfàbrega fresca, i una copa de vi italià seleccionat. Una experiència autèntica que et transportarà als sabors de la cuina tradicional italiana.
+            </div>
+            <div class="menu1-img1">
+                <img src="imatges/pastaFresca.jpeg" alt="Pasta fresca" class="img1">
+            </div>
+            <div class="menu1-img2">
+                <img src="imatges/amanidaCaprese.jpeg" alt="Amanida caprese" class="img2">
+            </div>
+            <div class="menu2">MENÚ 2</div>
+            <div class="contingut2">
+                Menú que inclou una deliciosa pizza cuita al tradicional forn de llenya, una lasanya casolana preparada amb ingredients frescos i un tiramisú cremós com a postre. Tot el millor de la gastronomia italiana reunit en un sol menú pensat per delectar tots els sentits.
+            </div>
+            <div class="menu2-img1">
+                <img src="imatges/pizza.jpg" alt="Pizza al forn" class="img3">
+            </div>
+            <div class="menu2-img2">
+                <img src="imatges/tiramisu.jpg" alt="Tiramisú" class="img4">
+            </div>
+        </div>
+
+         <h2>GALERIA</h2>
+        <div class="galeria">
+                <div class="imatge-galeria"><img src="imatges/dins.jpg" alt="Interior del restaurant" class="fosc"></div>
+                <div class="imatge-galeria"><img src="imatges/dins.jpg" alt="Interior del restaurant"></div>
+                <div class="imatge-galeria"><img src="imatges/dins.jpg" alt="Interior del restaurant"></div>
+                <div class="imatge-galeria"><img src="imatges/dins.jpg" alt="Interior del restaurant" class="fosc"></div>
+                <div class="imatge-galeria"><img src="imatges/platServit.jpg" alt="Plats servits" class="fosc"></div>
+                <div class="imatge-galeria"><img src="imatges/platServit.jpg" alt="Plats servits"></div>
+                <div class="imatge-galeria"><img src="imatges/platServit.jpg" alt="Plats servits"></div>
+                <div class="imatge-galeria"><img src="imatges/platServit.jpg" alt="Plats servits" class="fosc"></div>    
+        </div>
+
+         <h2>RESERVA</h2>
+         <form class="form-reserva">
+            <div class="reserva" id="reserve">
+                <div class="nom-res">
+                    <label for="nom">NOM</label>
+                    <input type="text" id="nom" name="nom" class="posicio" required>
+                </div>
+                <div class="persones-res">
+                    <label for="num-personas">NÚMERO DE PERSONES</label>
+                    <input type="number" id="num-personas" name="num-personas" class="posicio" required>
+                </div>
+                <div class="data-res">
+                    <label for="data">DATA</label>
+                    <input type="date" id="data" name="data" class="posicio" required>
+                </div>
+                <div class="hora-res">
+                    <label for="hora">HORA</label>
+                    <input type="time" id="hora" name="hora" class="posicio" required>
+                </div>
+                <div class="descripcio-res">
+                    <label for="descripcio">DESCRIPCIÓ</label>
+                    <textarea id="descripcio" name="descripcio" class="posicio"></textarea>
+                </div> 
+                <div class="res-button">
+                    <button type="submit" class="res">RESERVAR</button>
+                </div>
+         </form>
+    </div>
+
+    <footer>
+        <div class="contacte">
+            <div class="footer-items-left">
+                <img src="imatges/email.jpeg" alt="Icon email" class="footer-icon">
+                <p>iaiaCristina@gmail.com</p>
+            </div>
+            <div class="footer-items-left">
+                <img src="imatges/telefon.jpeg" alt="Icono teléfono" class="footer-icon">
+                <p>+34 934 61 73 11</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
